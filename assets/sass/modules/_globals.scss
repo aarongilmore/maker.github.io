@@ -34,6 +34,12 @@ img {
 
 .button {
   background-color: $linkColour!important;
+  text-transform: uppercase;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 .button-align {

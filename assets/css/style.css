@@ -809,7 +809,12 @@ img {
       width: auto; } }
 
 .button {
-  background-color: #0E58F5 !important; }
+  background-color: #0E58F5 !important;
+  text-transform: uppercase; }
+
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0; }
 
 .button-align {
   line-height: 2rem;
