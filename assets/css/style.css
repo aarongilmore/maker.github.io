@@ -810,11 +810,12 @@ img {
 
 .button {
   background-color: #0E58F5 !important;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-appearance: none !important; }
 
 input, textarea {
-  -webkit-appearance: none;
-  -webkit-border-radius: 0; }
+  -webkit-appearance: none !important;
+  -webkit-border-radius: 0 !important; }
 
 .button-align {
   line-height: 2rem;
