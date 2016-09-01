@@ -512,7 +512,7 @@ a {
   padding-bottom: 3rem;
   padding-top: 3rem; }
 
-.typeset h2, .typeset .beta:after {
+.typeset h1, .typeset .alpha:after {
   content: "";
   display: block;
   width: 1.3em;
