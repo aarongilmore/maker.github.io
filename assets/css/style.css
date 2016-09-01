@@ -55,7 +55,7 @@ html {
 
 body {
   font-size: 1.33333rem;
-  font-family: niveau-grotesk;
+  font-family: skolar-sans-latin-extended;
   font-style: normal;
   font-weight: 400;
   line-height: 2rem; }
@@ -112,11 +112,10 @@ a {
       padding-top: 0.6179rem; } }
 
 .typeset h1, .typeset h2, .typeset h3, .typeset h4, .typeset h5, .typeset h6 {
-  color: #fcce33;
-  font-family: niveau-grotesk;
+  color: #333333;
+  font-family: skolar-sans-latin-extended;
   font-feature-settings: 'dlig', 'liga', 'lnum', 'kern';
-  font-style: normal;
-  font-weight: 700; }
+  font-style: normal; }
 
 .typeset h1, .typeset .alpha {
   line-height: 3rem;
@@ -369,7 +368,7 @@ a {
   font-size: 1.19167rem;
   margin-bottom: -0.60676rem;
   padding-top: 0.60676rem;
-  font-family: niveau-grotesk;
+  font-family: skolar-sans-latin-extended;
   font-feature-settings: 'liga', 'lnum', 'tnum', 'kern';
   font-style: normal;
   font-weight: 400;
@@ -429,7 +428,7 @@ a {
 
 .typeset small, .typeset .caption {
   font-size: 1.06667rem;
-  font-family: niveau-grotesk;
+  font-family: skolar-sans-latin-extended;
   font-style: normal;
   font-weight: 400; }
   @media screen and (min-width: 40em) {
@@ -512,6 +511,14 @@ a {
   margin: 0;
   padding-bottom: 3rem;
   padding-top: 3rem; }
+
+.typeset h2, .typeset .beta:after {
+  content: "";
+  display: block;
+  width: 1.3em;
+  height: .12em;
+  margin: .65em 0em;
+  background: #fcce33; }
 
 .typeset code, .typeset pre {
   background-color: #F5F4F2;
@@ -785,7 +792,7 @@ a {
 
 body {
   background-color: #FCFCFC;
-  color: #494949;
+  color: #333333;
   overflow-x: hidden; }
 
 .section {
@@ -809,7 +816,7 @@ img {
       width: auto; } }
 
 .button {
-  background-color: #0E58F5 !important;
+  background-color: #333333 !important;
   text-transform: uppercase;
   -webkit-appearance: none !important; }
 
@@ -837,3 +844,11 @@ input, textarea {
     .button-align {
       margin-bottom: 1.3821rem;
       padding-top: 0.6179rem; } }
+
+.typeset h2:before {
+  content: "";
+  display: block;
+  width: 1.5em;
+  height: .11em;
+  margin-bottom: .75em;
+  background: #8D959B; }

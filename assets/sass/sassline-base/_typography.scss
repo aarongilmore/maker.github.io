@@ -63,7 +63,7 @@ a {
     font-family: unquote(map-get($headingtype, font-family));
     font-feature-settings: 'dlig', 'liga', 'lnum', 'kern';
     font-style: normal;
-    font-weight: map-get($headingtype, bold);
+    font-weight: map-get($headingtype, normal);
   }
 
   // Heading level 1.
@@ -313,6 +313,17 @@ a {
     margin: 0;
     padding-bottom: 3rem;
     padding-top: 3rem;
+  }
+
+  // Accents
+
+  h2, .beta:after {
+    content: "";
+    display: block;
+    width: 1.3em;
+    height: .12em;
+    margin: .65em 0em;
+    background: $accentColour;
   }
 
   // Code block.
