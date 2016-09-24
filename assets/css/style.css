@@ -85,7 +85,7 @@ a {
   background-position: 0 93%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
-  text-shadow: 0.1rem 0 #FCFCFC, 0.15rem 0 #FCFCFC, -0.1rem 0 #FCFCFC, -0.15rem 0 #FCFCFC; }
+  text-shadow: 0.1rem 0 #ffffff, 0.15rem 0 #ffffff, -0.1rem 0 #ffffff, -0.15rem 0 #ffffff; }
   .typeset p a:hover, .typeset p a:active, .typeset p a:focus, .typeset li a:hover, .typeset li a:active, .typeset li a:focus {
     background-image: linear-gradient(to bottom, transparent 50%, #1257ea 50%); }
 
@@ -512,7 +512,7 @@ a {
   padding-bottom: 3rem;
   padding-top: 3rem; }
 
-.typeset h1, .typeset .alpha:after {
+.typeset h1.alpha:after {
   content: "";
   display: block;
   width: 1.3em;
@@ -791,7 +791,7 @@ a {
     padding-right: 2rem; } }
 
 body {
-  background-color: #FCFCFC;
+  background-color: #ffffff;
   color: #333333;
   overflow-x: hidden; }
 
@@ -844,11 +844,3 @@ input, textarea {
     .button-align {
       margin-bottom: 1.3821rem;
       padding-top: 0.6179rem; } }
-
-.typeset h2:before {
-  content: "";
-  display: block;
-  width: 1.5em;
-  height: .11em;
-  margin-bottom: .75em;
-  background: #8D959B; }

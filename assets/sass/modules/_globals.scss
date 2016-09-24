@@ -46,12 +46,3 @@ input, textarea {
 .button-align {
   @include baseline(zeta, $bodytype, 2, 2, all);
 }
-
-.typeset h2:before {
-  content: "";
-  display: block;
-  width: 1.5em;
-  height: .11em;
-  margin-bottom: .75em;
-  background: #8D959B;
-}

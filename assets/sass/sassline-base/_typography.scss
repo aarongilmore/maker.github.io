@@ -317,7 +317,7 @@ a {
 
   // Accents
 
-  h1, .alpha:after {
+  h1.alpha:after {
     content: "";
     display: block;
     width: 1.3em;
